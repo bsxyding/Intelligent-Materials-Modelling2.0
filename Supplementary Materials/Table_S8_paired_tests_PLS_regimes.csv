@@ -1,0 +1,25 @@
+target,baseline,llm,MAE_baseline,MAE_LLM,n_of_10_LLM_better,p,q_BH
+E,"PLS, all 9 distinct samples (deterministic)",ChatGPT-4o,32.1806,31.7656,4,0.8457,0.8457
+E,"PLS, all 9 distinct samples (deterministic)",DeepSeek-R1-0528,32.1806,32.3472,4,0.5566,0.8457
+E,"PLS, all 9 distinct samples (deterministic)",DeepSeek-V3-0324,32.1806,33.9436,5,0.8457,0.8457
+E,"PLS, all 9 distinct samples (deterministic)",GPT-5,32.1806,30.8412,4,0.6953,0.8457
+TS,"PLS, all 9 distinct samples (deterministic)",ChatGPT-4o,1.3878,1.3164,4,0.625,0.6953
+TS,"PLS, all 9 distinct samples (deterministic)",DeepSeek-R1-0528,1.3878,1.386,4,0.625,0.6953
+TS,"PLS, all 9 distinct samples (deterministic)",DeepSeek-V3-0324,1.3878,1.3872,5,0.6953,0.6953
+TS,"PLS, all 9 distinct samples (deterministic)",GPT-5,1.3878,1.2888,4,0.6953,0.6953
+EL,"PLS, all 9 distinct samples (deterministic)",ChatGPT-4o,9.837,5.7488,9,0.0645,0.112
+EL,"PLS, all 9 distinct samples (deterministic)",DeepSeek-R1-0528,9.837,5.5142,7,0.1309,0.1309
+EL,"PLS, all 9 distinct samples (deterministic)",DeepSeek-V3-0324,9.837,6.6072,8,0.084,0.112
+EL,"PLS, all 9 distinct samples (deterministic)",GPT-5,9.837,5.179,9,0.0195,0.0781
+E,"PLS, bootstrap (published)",ChatGPT-4o,34.4102,31.7656,3,0.4922,0.7695
+E,"PLS, bootstrap (published)",DeepSeek-R1-0528,34.4102,32.3472,3,0.4922,0.7695
+E,"PLS, bootstrap (published)",DeepSeek-V3-0324,34.4102,33.9436,4,0.7695,0.7695
+E,"PLS, bootstrap (published)",GPT-5,34.4102,30.8412,4,0.6953,0.7695
+TS,"PLS, bootstrap (published)",ChatGPT-4o,1.4106,1.3164,3,0.8457,0.8457
+TS,"PLS, bootstrap (published)",DeepSeek-R1-0528,1.4106,1.386,3,0.4316,0.8457
+TS,"PLS, bootstrap (published)",DeepSeek-V3-0324,1.4106,1.3872,4,0.8457,0.8457
+TS,"PLS, bootstrap (published)",GPT-5,1.4106,1.2888,4,0.6953,0.8457
+EL,"PLS, bootstrap (published)",ChatGPT-4o,9.3674,5.7488,9,0.0488,0.0651
+EL,"PLS, bootstrap (published)",DeepSeek-R1-0528,9.3674,5.5142,9,0.0195,0.0391
+EL,"PLS, bootstrap (published)",DeepSeek-V3-0324,9.3674,6.6072,9,0.084,0.084
+EL,"PLS, bootstrap (published)",GPT-5,9.3674,5.179,9,0.0039,0.0156

@@ -1,0 +1,10 @@
+branch,target,RMSE,MAE,R2,CV_RMSE
+"PLS, all 9 distinct training samples (deterministic)",E,36.9165,32.1806,0.3903,23.2319
+"PLS, bootstrap (published), run-averaged",E,36.6596,28.0934,0.3987,23.0703
+"PLS, bootstrap (published), per-run mean",E,42.054,34.4102,0.198,26.465
+"PLS, all 9 distinct training samples (deterministic)",TS,1.6455,1.3878,0.2484,24.8679
+"PLS, bootstrap (published), run-averaged",TS,1.6174,1.2416,0.2739,24.4432
+"PLS, bootstrap (published), per-run mean",TS,1.7581,1.4106,0.1254,26.5689
+"PLS, all 9 distinct training samples (deterministic)",EL,12.2533,9.837,-0.6033,22.0935
+"PLS, bootstrap (published), run-averaged",EL,9.7918,8.7351,-0.0239,17.6554
+"PLS, bootstrap (published), per-run mean",EL,11.6039,9.3674,-0.452,20.9226

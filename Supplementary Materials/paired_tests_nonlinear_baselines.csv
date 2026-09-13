@@ -1,0 +1,97 @@
+target,baseline,llm,MAE_baseline,MAE_LLM,n_of_10_LLM_better,p,q_BH
+E,"Mean predictor (training-fold mean, no descriptors)",ChatGPT-4o,44.5733,31.7656,7,0.1309,0.2578
+E,"Mean predictor (training-fold mean, no descriptors)",DeepSeek-R1-0528,44.5733,32.3472,6,0.1934,0.2578
+E,"Mean predictor (training-fold mean, no descriptors)",DeepSeek-V3-0324,44.5733,33.9436,6,0.2754,0.2754
+E,"Mean predictor (training-fold mean, no descriptors)",GPT-5,44.5733,30.8412,7,0.1602,0.2578
+TS,"Mean predictor (training-fold mean, no descriptors)",ChatGPT-4o,1.7744,1.3164,7,0.2324,0.375
+TS,"Mean predictor (training-fold mean, no descriptors)",DeepSeek-R1-0528,1.7744,1.386,6,0.375,0.375
+TS,"Mean predictor (training-fold mean, no descriptors)",DeepSeek-V3-0324,1.7744,1.3872,6,0.3223,0.375
+TS,"Mean predictor (training-fold mean, no descriptors)",GPT-5,1.7744,1.2888,6,0.375,0.375
+EL,"Mean predictor (training-fold mean, no descriptors)",ChatGPT-4o,10.0744,5.7488,8,0.0098,0.0195
+EL,"Mean predictor (training-fold mean, no descriptors)",DeepSeek-R1-0528,10.0744,5.5142,7,0.0273,0.0365
+EL,"Mean predictor (training-fold mean, no descriptors)",DeepSeek-V3-0324,10.0744,6.6072,8,0.0645,0.0645
+EL,"Mean predictor (training-fold mean, no descriptors)",GPT-5,10.0744,5.179,9,0.0098,0.0195
+E,PLS (LV by inner LOOCV),ChatGPT-4o,32.1806,31.7656,4,0.8457,0.8457
+E,PLS (LV by inner LOOCV),DeepSeek-R1-0528,32.1806,32.3472,4,0.5566,0.8457
+E,PLS (LV by inner LOOCV),DeepSeek-V3-0324,32.1806,33.9436,5,0.8457,0.8457
+E,PLS (LV by inner LOOCV),GPT-5,32.1806,30.8412,4,0.6953,0.8457
+TS,PLS (LV by inner LOOCV),ChatGPT-4o,1.3878,1.3164,4,0.625,0.6953
+TS,PLS (LV by inner LOOCV),DeepSeek-R1-0528,1.3878,1.386,4,0.625,0.6953
+TS,PLS (LV by inner LOOCV),DeepSeek-V3-0324,1.3878,1.3872,5,0.6953,0.6953
+TS,PLS (LV by inner LOOCV),GPT-5,1.3878,1.2888,4,0.6953,0.6953
+EL,PLS (LV by inner LOOCV),ChatGPT-4o,9.837,5.7488,9,0.0645,0.112
+EL,PLS (LV by inner LOOCV),DeepSeek-R1-0528,9.837,5.5142,7,0.1309,0.1309
+EL,PLS (LV by inner LOOCV),DeepSeek-V3-0324,9.837,6.6072,8,0.084,0.112
+EL,PLS (LV by inner LOOCV),GPT-5,9.837,5.179,9,0.0195,0.0781
+E,Ridge regression,ChatGPT-4o,29.133,31.7656,3,0.5566,0.625
+E,Ridge regression,DeepSeek-R1-0528,29.133,32.3472,4,0.375,0.625
+E,Ridge regression,DeepSeek-V3-0324,29.133,33.9436,4,0.4316,0.625
+E,Ridge regression,GPT-5,29.133,30.8412,4,0.625,0.625
+TS,Ridge regression,ChatGPT-4o,1.234,1.3164,4,0.4922,0.7422
+TS,Ridge regression,DeepSeek-R1-0528,1.234,1.386,4,0.4316,0.7422
+TS,Ridge regression,DeepSeek-V3-0324,1.234,1.3872,5,0.5566,0.7422
+TS,Ridge regression,GPT-5,1.234,1.2888,4,0.7695,0.7695
+EL,Ridge regression,ChatGPT-4o,8.4944,5.7488,7,0.2324,0.3223
+EL,Ridge regression,DeepSeek-R1-0528,8.4944,5.5142,6,0.3223,0.3223
+EL,Ridge regression,DeepSeek-V3-0324,8.4944,6.6072,6,0.2754,0.3223
+EL,Ridge regression,GPT-5,8.4944,5.179,8,0.0371,0.1484
+E,Elastic net,ChatGPT-4o,29.937,31.7656,4,0.6953,0.9219
+E,Elastic net,DeepSeek-R1-0528,29.937,32.3472,4,0.625,0.9219
+E,Elastic net,DeepSeek-V3-0324,29.937,33.9436,5,0.8457,0.9219
+E,Elastic net,GPT-5,29.937,30.8412,4,0.9219,0.9219
+TS,Elastic net,ChatGPT-4o,1.293,1.3164,4,0.375,0.625
+TS,Elastic net,DeepSeek-R1-0528,1.293,1.386,4,0.4922,0.625
+TS,Elastic net,DeepSeek-V3-0324,1.293,1.3872,4,0.5566,0.625
+TS,Elastic net,GPT-5,1.293,1.2888,4,0.625,0.625
+EL,Elastic net,ChatGPT-4o,7.9156,5.7488,7,0.4316,0.5566
+EL,Elastic net,DeepSeek-R1-0528,7.9156,5.5142,6,0.5566,0.5566
+EL,Elastic net,DeepSeek-V3-0324,7.9156,6.6072,7,0.4316,0.5566
+EL,Elastic net,GPT-5,7.9156,5.179,8,0.1055,0.4219
+E,Ridge on descriptors + pairwise interactions,ChatGPT-4o,25.9206,31.7656,4,0.4316,0.4922
+E,Ridge on descriptors + pairwise interactions,DeepSeek-R1-0528,25.9206,32.3472,3,0.1309,0.4922
+E,Ridge on descriptors + pairwise interactions,DeepSeek-V3-0324,25.9206,33.9436,5,0.4922,0.4922
+E,Ridge on descriptors + pairwise interactions,GPT-5,25.9206,30.8412,4,0.3223,0.4922
+TS,Ridge on descriptors + pairwise interactions,ChatGPT-4o,0.9841,1.3164,3,0.3223,0.4297
+TS,Ridge on descriptors + pairwise interactions,DeepSeek-R1-0528,0.9841,1.386,2,0.0371,0.1484
+TS,Ridge on descriptors + pairwise interactions,DeepSeek-V3-0324,0.9841,1.3872,5,0.4922,0.4922
+TS,Ridge on descriptors + pairwise interactions,GPT-5,0.9841,1.2888,3,0.1602,0.3203
+EL,Ridge on descriptors + pairwise interactions,ChatGPT-4o,9.2245,5.7488,8,0.0273,0.0365
+EL,Ridge on descriptors + pairwise interactions,DeepSeek-R1-0528,9.2245,5.5142,8,0.0137,0.0365
+EL,Ridge on descriptors + pairwise interactions,DeepSeek-V3-0324,9.2245,6.6072,8,0.2324,0.2324
+EL,Ridge on descriptors + pairwise interactions,GPT-5,9.2245,5.179,9,0.0273,0.0365
+E,Gaussian process regression (RBF + white noise),ChatGPT-4o,27.6965,31.7656,5,0.6953,0.6953
+E,Gaussian process regression (RBF + white noise),DeepSeek-R1-0528,27.6965,32.3472,2,0.1934,0.6953
+E,Gaussian process regression (RBF + white noise),DeepSeek-V3-0324,27.6965,33.9436,5,0.6953,0.6953
+E,Gaussian process regression (RBF + white noise),GPT-5,27.6965,30.8412,4,0.4922,0.6953
+TS,Gaussian process regression (RBF + white noise),ChatGPT-4o,1.1852,1.3164,3,0.4316,0.625
+TS,Gaussian process regression (RBF + white noise),DeepSeek-R1-0528,1.1852,1.386,2,0.1934,0.625
+TS,Gaussian process regression (RBF + white noise),DeepSeek-V3-0324,1.1852,1.3872,4,0.625,0.625
+TS,Gaussian process regression (RBF + white noise),GPT-5,1.1852,1.2888,5,0.625,0.625
+EL,Gaussian process regression (RBF + white noise),ChatGPT-4o,6.4293,5.7488,5,0.6953,1.0
+EL,Gaussian process regression (RBF + white noise),DeepSeek-R1-0528,6.4293,5.5142,4,0.8457,1.0
+EL,Gaussian process regression (RBF + white noise),DeepSeek-V3-0324,6.4293,6.6072,6,1.0,1.0
+EL,Gaussian process regression (RBF + white noise),GPT-5,6.4293,5.179,7,0.3223,1.0
+E,Support vector regression (RBF kernel),ChatGPT-4o,35.2363,31.7656,4,0.9219,1.0
+E,Support vector regression (RBF kernel),DeepSeek-R1-0528,35.2363,32.3472,5,1.0,1.0
+E,Support vector regression (RBF kernel),DeepSeek-V3-0324,35.2363,33.9436,6,0.9219,1.0
+E,Support vector regression (RBF kernel),GPT-5,35.2363,30.8412,4,1.0,1.0
+TS,Support vector regression (RBF kernel),ChatGPT-4o,1.3417,1.3164,5,0.9219,1.0
+TS,Support vector regression (RBF kernel),DeepSeek-R1-0528,1.3417,1.386,4,1.0,1.0
+TS,Support vector regression (RBF kernel),DeepSeek-V3-0324,1.3417,1.3872,6,1.0,1.0
+TS,Support vector regression (RBF kernel),GPT-5,1.3417,1.2888,4,1.0,1.0
+EL,Support vector regression (RBF kernel),ChatGPT-4o,8.8663,5.7488,8,0.0488,0.0977
+EL,Support vector regression (RBF kernel),DeepSeek-R1-0528,8.8663,5.5142,7,0.1934,0.1934
+EL,Support vector regression (RBF kernel),DeepSeek-V3-0324,8.8663,6.6072,8,0.1055,0.1406
+EL,Support vector regression (RBF kernel),GPT-5,8.8663,5.179,9,0.0098,0.0391
+E,Random forest,ChatGPT-4o,27.0361,31.7656,4,0.4922,0.6562
+E,Random forest,DeepSeek-R1-0528,27.0361,32.3472,3,0.375,0.6562
+E,Random forest,DeepSeek-V3-0324,27.0361,33.9436,4,0.2324,0.6562
+E,Random forest,GPT-5,27.0361,30.8412,6,0.7695,0.7695
+TS,Random forest,ChatGPT-4o,1.0133,1.3164,5,0.4316,0.4316
+TS,Random forest,DeepSeek-R1-0528,1.0133,1.386,3,0.2324,0.4316
+TS,Random forest,DeepSeek-V3-0324,1.0133,1.3872,3,0.1934,0.4316
+TS,Random forest,GPT-5,1.0133,1.2888,4,0.4316,0.4316
+EL,Random forest,ChatGPT-4o,4.8849,5.7488,5,0.4316,0.5755
+EL,Random forest,DeepSeek-R1-0528,4.8849,5.5142,3,0.375,0.5755
+EL,Random forest,DeepSeek-V3-0324,4.8849,6.6072,3,0.2324,0.5755
+EL,Random forest,GPT-5,4.8849,5.179,6,1.0,1.0

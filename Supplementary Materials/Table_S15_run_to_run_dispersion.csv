@@ -1,0 +1,17 @@
+model,target,mean_per_sample_CV_pct,max_per_sample_CV_pct,worst_sample,n_runs
+PLS (bootstrap-perturbed),E,15.995,45.478,S1,5
+PLS (bootstrap-perturbed),TS,12.946,23.494,S3,5
+PLS (bootstrap-perturbed),EL,22.025,88.474,S6,5
+DeepSeek-V3-0324,E,3.214,6.197,S8,5
+DeepSeek-V3-0324,TS,2.948,5.26,S8,5
+DeepSeek-V3-0324,EL,1.954,4.706,S8,5
+DeepSeek-R1-0528,E,8.191,18.465,S8,5
+DeepSeek-R1-0528,TS,9.115,23.72,S9,5
+DeepSeek-R1-0528,EL,6.869,14.466,S8,5
+ChatGPT-4o,E,3.49,7.068,S1,5
+ChatGPT-4o,TS,3.568,8.475,S1,5
+ChatGPT-4o,EL,2.178,3.722,S1,5
+GPT-5,E,1.314,3.946,S9,5
+GPT-5,TS,1.904,5.481,S9,5
+GPT-5,EL,1.193,2.79,S9,5
+"PLS (deterministic, all 9 distinct samples)",E/TS/EL,0.0,0.0,-,1

@@ -1,0 +1,13 @@
+target,baseline,llm,MAE_baseline,MAE_LLM,n_of_10_LLM_better,p,q_BH
+E,"PLS2, three targets fitted jointly",ChatGPT-4o,27.621,31.7656,4,0.7695,0.7695
+E,"PLS2, three targets fitted jointly",DeepSeek-R1-0528,27.621,32.3472,4,0.1602,0.6406
+E,"PLS2, three targets fitted jointly",DeepSeek-V3-0324,27.621,33.9436,4,0.5566,0.7422
+E,"PLS2, three targets fitted jointly",GPT-5,27.621,30.8412,4,0.5566,0.7422
+TS,"PLS2, three targets fitted jointly",ChatGPT-4o,1.1458,1.3164,4,0.5566,0.6953
+TS,"PLS2, three targets fitted jointly",DeepSeek-R1-0528,1.1458,1.386,4,0.1602,0.6406
+TS,"PLS2, three targets fitted jointly",DeepSeek-V3-0324,1.1458,1.3872,5,0.625,0.6953
+TS,"PLS2, three targets fitted jointly",GPT-5,1.1458,1.2888,4,0.6953,0.6953
+EL,"PLS2, three targets fitted jointly",ChatGPT-4o,6.581,5.7488,6,0.625,0.8333
+EL,"PLS2, three targets fitted jointly",DeepSeek-R1-0528,6.581,5.5142,5,0.5566,0.8333
+EL,"PLS2, three targets fitted jointly",DeepSeek-V3-0324,6.581,6.6072,6,0.9219,0.9219
+EL,"PLS2, three targets fitted jointly",GPT-5,6.581,5.179,8,0.1934,0.7734
